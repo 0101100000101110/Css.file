@@ -1,0 +1,47 @@
+/* Block 
+-Take Full Width If No Width 
+-Add Line- Break 
+-Respect Paddin, Margin  Width
+
+Inline 
+-Do Not Respect Width , Height 
+-Respect Padding And Margin [Just left and right]
+-Do Not Add Line Break
+-Allow Elements Before And After It
+
+
+Inline Block
+-Allow Elements Before And After It
+-Respect Padding , Margin , Width, Height
+-
+
+*/
+
+.one{
+    padding: 10px;
+    border-bottom: 2px solid red;
+    color: red;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+.two{
+    padding: 10px;
+    border-bottom: 2px solid green;
+    color: blue;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+.three{
+    padding: 10px;
+    border-bottom: 2px solid blue;
+    color: blue;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+.four{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    color: black;
+    margin: 10px 0;
+    background-color: #EEE;
+}
